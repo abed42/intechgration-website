@@ -1,0 +1,42 @@
+## Curriculum
+- HTML
+    - Elements
+        - Headings
+        - Paragraphs
+        - Links
+        - Images
+        - Buttons
+        - Lists
+        - Tables
+    - Attributes
+    - Document Strucutre
+    - Project
+        - HTML only project that includes all of the above elements.
+- CSS
+    - Selectors
+    - Box Model
+    - Inheritice
+    - Color
+    - Sizing Units
+    - Layout
+    - Pseudo Classes
+    - Shadows
+    - Z-Index
+    - Animations
+    - External Style Sheet | Inline Styles
+    - Cascading & Specificity
+    - Positioning
+    - Flexbox
+    - Project
+        - Two projects with advanced css 
+- Javascript
+    - Programming Basics
+    - Basic Syntax
+    - Data Structures
+    - DOM
+    - APIs and Async
+- Responsive Web Design
+    - Viewport units and Responsive CSS Units like em & rem.
+    - Media Queries
+    - Responsive Images
+- React
