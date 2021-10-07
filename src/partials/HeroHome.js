@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
+import copy from "../copy";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -46,7 +47,7 @@ function HeroHome() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Become a web developer
+              {copy.title}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -54,10 +55,7 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Intechgration is a unique learning experience,
-                specifically designed to teach you Web Development in
-                if your'e broke and have no life. We will teach you
-                how to live.
+                {copy["title-paragraph"]}
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -69,7 +67,7 @@ function HeroHome() {
                     className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
                     href="#0"
                   >
-                    Start free trial
+                    {copy["title-blue-cta"]}
                   </a>
                 </div>
                 <div>
@@ -77,7 +75,7 @@ function HeroHome() {
                     className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
                     href="#0"
                   >
-                    Learn more
+                    {copy["title-black-cta"]}
                   </a>
                 </div>
               </div>
