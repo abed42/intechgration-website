@@ -48,6 +48,9 @@ function HeroHome() {
               data-aos="zoom-y-out"
             >
               {copy.title}
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+                developer
+              </span>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -65,7 +68,7 @@ function HeroHome() {
                 <div>
                   <a
                     className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScZc8_FIQyhBnJ1cu__p_UdXlpzsldIFgpLfS1MRWiJbIqSTQ/viewform?usp=sf_link"
                   >
                     {copy["title-blue-cta"]}
                   </a>
@@ -73,7 +76,7 @@ function HeroHome() {
                 <div>
                   <a
                     className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                    href="#0"
+                    href=""
                   >
                     {copy["title-black-cta"]}
                   </a>
@@ -83,8 +86,8 @@ function HeroHome() {
           </div>
 
           {/* Hero image */}
-          {/* <div> */}
-          {/* <div
+          <div>
+            <div
               className="relative flex justify-center mb-8"
               data-aos="zoom-y-out"
               data-aos-delay="450"
@@ -96,6 +99,7 @@ function HeroHome() {
                   width="768"
                   height="432"
                   alt="Hero"
+                  style={{ borderRadius: 3 }}
                 />
                 <svg
                   className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
@@ -176,7 +180,7 @@ function HeroHome() {
                   </g>
                 </svg>
               </div>
-              <button
+              {/* <button
                 className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
                 onClick={(e) => {
                   e.preventDefault();
@@ -196,11 +200,11 @@ function HeroHome() {
                 <span className="ml-3">
                   Watch the full video (2 min)
                 </span>
-              </button>
-            </div> */}
+              </button> */}
+            </div>
 
-          {/* Modal */}
-          {/* <Modal
+            {/* Modal */}
+            {/* <Modal
               id="modal"
               ariaLabel="modal-headline"
               show={videoModalOpen}
@@ -215,7 +219,7 @@ function HeroHome() {
                 ></iframe>
               </div>
             </Modal> */}
-          {/* </div> */}
+          </div>
         </div>
       </div>
     </section>

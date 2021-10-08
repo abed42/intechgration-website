@@ -1,4 +1,5 @@
 import React from "react";
+import copy from "../copy";
 
 function FeaturesBlocks() {
   return (
@@ -14,11 +15,11 @@ function FeaturesBlocks() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How Simple works</h2>
+            <h2 className="h2 mb-4">
+              {copy["page-section-3-title"]}
+            </h2>
             <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur
-              excepteur sint occaecat cupidatat.
+              {copy["page-section-3-paragraph"]}
             </p>
           </div>
 
@@ -61,11 +62,10 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Initial Contact
+                {copy["cards-0-header"]}
               </h4>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.
+                {copy["cards-0-paragraph"]}
               </p>
             </div>
 
@@ -106,11 +106,10 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Discovery Session
+                {copy["cards-1-header"]}
               </h4>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.
+                {copy["cards-1-paragraph"]}
               </p>
             </div>
 
@@ -141,11 +140,10 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Contracting
+                {copy["cards-2-header"]}
               </h4>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.
+                {copy["cards-2-paragraph"]}
               </p>
             </div>
           </div>
