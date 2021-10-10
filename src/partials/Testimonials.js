@@ -54,20 +54,30 @@ function Testimonials() {
           </div>
 
           <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-3">
-            <div
+            <a
+              href={copy["common-ground"]}
+              target="_blank"
               className="flex items-center justify-center py-2  col-span-2 md:col-auto bg-gray-100"
               style={{ height: "168px", marginTop: "8px" }}
             >
               <img src={CommonGround} alt="" />
-            </div>
+            </a>
 
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+            <a
+              target="_blank"
+              href={copy["human-rights"]}
+              className="flex items-center justify-center py-2 col-span-2 md:col-auto"
+            >
               <img src={HR360} alt="" />
-            </div>
+            </a>
 
-            <div className="flex items-center justify-center py-2 col-span-2 md:col-auto col-start-2 col-end-4">
+            <a
+              target="_blank"
+              copy={copy["echo-hub"]}
+              className="flex items-center justify-center py-2 col-span-2 md:col-auto col-start-2 col-end-4"
+            >
               <img src={Echohub} alt="" />
-            </div>
+            </a>
           </div>
 
           {/* <div

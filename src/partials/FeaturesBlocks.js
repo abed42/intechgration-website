@@ -15,8 +15,9 @@ function FeaturesBlocks() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">
-              {copy["page-section-3-title"]}
+            <h2 className="h2 mb-4 text-gray-600">
+              in<span className="text-black">tech</span>gration's
+              <span className="text-black"> steps to success</span>
             </h2>
             <p className="text-xl text-gray-600">
               {copy["page-section-3-paragraph"]}
