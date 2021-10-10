@@ -30,14 +30,14 @@ function Header() {
 
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link
                   to="/"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   About Us
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLScZc8_FIQyhBnJ1cu__p_UdXlpzsldIFgpLfS1MRWiJbIqSTQ/viewform?usp=sf_link"
