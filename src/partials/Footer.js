@@ -1,48 +1,24 @@
 import React from "react";
+import IntechgrationLogo from "../images/intechgration-logo.svg";
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
-          {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
-            <div className="mb-2">
-              {/* Logo */}
+            <div className="flex-shrink-0">
               <Link
                 to="/"
                 className="inline-block"
                 aria-label="Cruip"
+                style={{
+                  width: 120,
+                  height: 80,
+                }}
               >
-                <svg
-                  className="w-8 h-8"
-                  viewBox="0 0 32 32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <radialGradient
-                      cx="21.152%"
-                      cy="86.063%"
-                      fx="21.152%"
-                      fy="86.063%"
-                      r="79.941%"
-                      id="footer-logo"
-                    >
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect
-                    width="32"
-                    height="32"
-                    rx="16"
-                    fill="url(#footer-logo)"
-                    fillRule="nonzero"
-                  />
-                </svg>
+                <img src={IntechgrationLogo} />
               </Link>
             </div>
             <div className="text-sm text-gray-600">
@@ -62,8 +38,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">
               Products
             </h6>
@@ -109,10 +84,10 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">
               Resources
             </h6>
@@ -158,10 +133,9 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">
               Company
             </h6>
@@ -207,10 +181,9 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">
               Subscribe
             </h6>
@@ -256,17 +229,13 @@ function Footer() {
                       </svg>
                     </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
 
-        {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
-          {/* Social links */}
+        {/* <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <Link
@@ -314,9 +283,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-          {/* Copyrights note */}
-          {/* <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">Cruip</a>. All rights reserved.</div> */}
-        </div>
+        </div> */}
       </div>
     </footer>
   );
