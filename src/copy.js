@@ -1,12 +1,11 @@
 export default {
   title: "Become a web ",
-  "title-paragraph":
-    "Intechgration is a unique learning experience,specifically designed to teach you Web Development",
+  "title-paragraph": "",
   "title-blue-cta": "Apply Now",
   "title-black-cta": "Learn More",
   "sub-header": "Our Approach",
   "sub-header-paragraph":
-    "Training people in computer programming significantly boosts their chances of fulfilling, long term employment. Plus, we help to satisfy the demand for tech talent on the job market. Everyone wins.",
+    "Training in computer programming significantly boosts your chances of finding long-term, good-paying employment. At the same time, we know that training opportunities are not always equally accessible to everyone. That’s why we have created a free programme in Athens that welcomes ALL who are eager to learn. Our aim is for you to become competitive in the tech job market through learning new skills and professional development support.",
   "page-section-2-header": "Our approach is innovative",
   "page-section-2-paragraph":
     "We incorporate collaborative, project-based learning with a strong focus on community to create a challenging, yet supportive programme.",

@@ -58,7 +58,9 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                {copy["title-paragraph"]}
+                in<span className="text-black">tech</span>gration is
+                an innovative vocational training programme designed
+                to teach you front-end Web Development
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
