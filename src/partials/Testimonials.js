@@ -73,7 +73,7 @@ function Testimonials() {
 
             <a
               target="_blank"
-              copy={copy["echo-hub"]}
+              href={copy["echo-hub"]}
               className="flex items-center justify-center py-2 col-span-2 md:col-auto col-start-2 col-end-4"
             >
               <img src={Echohub} alt="" />
