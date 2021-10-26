@@ -46,9 +46,7 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">
-                  {copy["page-section-2-header"]}
-                </h3>
+                <h3 className="h3 mb-3">{copy["page-section-2-header"]}</h3>
                 <p className="text-xl text-gray-600">
                   {copy["page-section-2-paragraph"]}
                 </p>
@@ -178,23 +176,21 @@ function Features() {
                     <img
                       className="md:max-w-none mx-auto rounded"
                       src={
-                        require("../images/features-bg.png").default
+                        require("../images/project-based-learning-img.jpg")
+                          .default
                       }
                       width="500"
                       height="462"
                       alt="Features bg"
                     />
-                    <img
+                    {/* <img
                       className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={
-                        require("../images/features-element.png")
-                          .default
-                      }
+                      src={require("../images/features-element.png").default}
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -213,23 +209,20 @@ function Features() {
                     <img
                       className="md:max-w-none mx-auto rounded"
                       src={
-                        require("../images/features-bg.png").default
+                        require("../images/pair-programming-table.jpg").default
                       }
                       width="500"
                       height="462"
                       alt="Features bg"
                     />
-                    <img
+                    {/* <img
                       className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={
-                        require("../images/features-element.png")
-                          .default
-                      }
+                      src={require("../images/features-element.png").default}
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -247,24 +240,19 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="md:max-w-none mx-auto rounded"
-                      src={
-                        require("../images/features-bg.png").default
-                      }
+                      src={require("../images/mentorship.jpg").default}
                       width="500"
                       height="462"
                       alt="Features bg"
                     />
-                    <img
+                    {/* <img
                       className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={
-                        require("../images/features-element.png")
-                          .default
-                      }
+                      src={require("../images/features-element.png").default}
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
               </div>
