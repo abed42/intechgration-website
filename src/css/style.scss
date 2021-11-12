@@ -1,28 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 
 // Additional styles
-@import 'additional-styles/utility-patterns.scss';
-@import 'additional-styles/range-slider.scss';
-@import 'additional-styles/toggle-switch.scss';
-@import 'additional-styles/theme.scss';
+@import "additional-styles/utility-patterns.scss";
+@import "additional-styles/range-slider.scss";
+@import "additional-styles/toggle-switch.scss";
+@import "additional-styles/theme.scss";
 
 @tailwind utilities;
 
 // Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive
 @responsive {
-    .rtl {
-        direction: rtl;
-    }
+  .rtl {
+    direction: rtl;
+  }
 }
 
 // See Alpine.js: https://github.com/alpinejs/alpine#x-cloak
 [x-cloak] {
-    display: none;
+  display: none;
 }
 
 // AOS styles
 $aos-distance: 10px;
-@import 'node_modules/aos/src/sass/aos.scss';
+@import "node_modules/aos/src/sass/aos.scss";
+
+p,
+span,
+div {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+}

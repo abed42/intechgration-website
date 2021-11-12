@@ -6,12 +6,9 @@ import "./css/style.scss";
 import AOS from "aos";
 import { focusHandling } from "cruip-js-toolkit";
 
-import { Home, About, Application } from "./pages";
-import SignIn from "./pages/SignIn";
-import SignUp from "./pages/SignUp";
-import ResetPassword from "./pages/ResetPassword";
+import { Home, About, Program } from "./pages";
 
-function App() {
+const App = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -41,10 +38,9 @@ function App() {
           <About />
         </Route>
 
-        <Route exact path="/apply">
-          <Application />
+        <Route exact path="/program">
+          <Program />
         </Route>
-
         {/* <Route path="/signin">
           <SignIn />
         </Route>
@@ -59,6 +55,6 @@ function App() {
       </Switch>
     </>
   );
-}
+};
 
 export default App;
