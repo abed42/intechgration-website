@@ -3,38 +3,38 @@ import { TeamMember } from "../components/TeamMember";
 
 const members = [
   {
-    name: "Juan Carlos",
-    position: "CEO",
-    image: require("../images/team-member-01.jpg").default,
+    name: "Abed Hamami",
+    position: "Instructor",
+    image: require("../images/abed.jpg").default,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     links: [
       {
-        url: "",
-        name: "Twitter",
+        url: "https://www.linkedin.com/in/abedhamami/",
+        name: "LinkedIn",
       },
 
       {
-        url: "",
+        url: "https://github.com/abed42",
         name: "Github",
       },
     ],
   },
 
   {
-    name: "Juan Carlos 2",
-    position: "CTO",
-    image: require("../images/team-member-02.jpg").default,
+    name: "Sohail Haqyar",
+    position: "Instructor",
+    image: require("../images/sohail.jpeg").default,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     links: [
       {
-        url: "",
-        name: "Twitter",
+        url: "https://www.linkedin.com/in/sohail-haqyar/",
+        name: "LinkedIn",
       },
 
       {
-        url: "",
+        url: "https://github.com/SohailHaqyar",
         name: "Github",
       },
     ],

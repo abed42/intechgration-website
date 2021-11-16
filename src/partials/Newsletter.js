@@ -110,7 +110,7 @@ function Newsletter() {
                   Start Your Journey now
                 </h3>
                 <p className="text-gray-300 text-lg mb-6">
-                  Application Deadline is October 31st 23:59 EET
+                  Classes starting the spring of next year.
                 </p>
 
                 {/* CTA form */}

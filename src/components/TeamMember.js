@@ -9,11 +9,14 @@ export const TeamMember = ({ name, position, links, image }) => {
     >
       <div className="flex flex-col items-center">
         <img
-          className="rounded-full mb-4"
+          className=" mb-4"
           src={image}
-          width="120"
-          height="120"
           alt="Team member 01"
+          style={{
+            width: "120px",
+            height: "120px",
+            borderRadius: "50%",
+          }}
         />
         <h4 className="text-xl font-bold mb-1">{name}</h4>
         <div className="text-blue-600 font-medium mb-2">
