@@ -1,26 +1,16 @@
 import React from "react";
+import { CTA, Hero, Mentor } from "../partials/Voulnteer";
 import Header from "../partials/Header";
 import Footer from "../partials/Footer";
 
-import {
-  Curriculum,
-  Features,
-  Hero,
-  Roadmap,
-  ExtraFeatures,
-} from "../partials/Program";
-
-export const Program = () => {
+export const Voulnteer = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Header />
-
       <main className="flex-grow">
         <Hero />
-        <Features />
-        <Curriculum />
-        <Roadmap />
-        <ExtraFeatures />
+        <Mentor />
+        <CTA />
       </main>
       <Footer />
     </div>
