@@ -6,7 +6,7 @@ import "./css/style.scss";
 import AOS from "aos";
 import { focusHandling } from "cruip-js-toolkit";
 
-import { Home, About, Program } from "./pages";
+import { Home, About, Program, Voulnteer } from "./pages";
 
 const App = () => {
   const location = useLocation();
@@ -27,6 +27,7 @@ const App = () => {
     focusHandling("outline");
   }, [location.pathname]); // triggered on route change
 
+  // Programmaticlly place routes
   return (
     <>
       <Switch>
@@ -40,6 +41,10 @@ const App = () => {
 
         <Route exact path="/program">
           <Program />
+        </Route>
+
+        <Route exact path="/volunteer">
+          <Voulnteer />
         </Route>
         {/* <Route path="/signin">
           <SignIn />
