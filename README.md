@@ -1,2 +1,2 @@
 
-## Intechgration Website
+## intechgration Website
