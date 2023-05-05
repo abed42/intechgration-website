@@ -36,7 +36,7 @@
     - DOM
     - APIs and Async
 - Responsive Web Design
-    - Viewport units and Responsive CSS Units like em & rem.
+    - Viewport units and Responsive CSS Units like em & rem
     - Media Queries
     - Responsive Images
 - React
